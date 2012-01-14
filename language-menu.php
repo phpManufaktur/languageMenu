@@ -7,7 +7,7 @@
  * @link http://phpmanufaktur.de
  * @copyright 2008 - 2011
  * @license GNU GPL (http://www.gnu.org/licenses/gpl.html)
- * @version $Id: precheck.php 29 2011-11-30 08:51:07Z phpmanufaktur $
+ * @version $Id$
  *
  */
 
