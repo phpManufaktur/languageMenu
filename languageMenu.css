@@ -1,0 +1,43 @@
+/**
+ * languageMenu
+ *
+ * @author Ralf Hertsch <ralf.hertsch@phpmanufaktur.de>
+ * @link https://addons.phpmanufaktur.de/de/addons/kittools.php
+ * @copyright 2011-2012 phpManufaktur by Ralf Hertsch
+ * @license MIT License (MIT) http://www.opensource.org/licenses/MIT
+ */
+
+@CHARSET "ISO-8859-1";
+
+.language-item {
+  margin: 0;
+  padding: 0 7px 0 7px;
+  background-color: transparent;
+  background-image: url(images/divider-vertical.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.language-item a {
+  text-decoration: none;
+}
+.language-item a:link,
+.language-item a:visited {
+  color: #d22f25;
+  background-color: transparent;
+}
+.language-item a:hover,
+.language-item a:active {
+  color: #666;
+  background-color: transparent;
+}
+.language-item.active {
+  color: #666;
+  background-color: transparent;
+}
+.language-item.first {
+  padding: 0 7px 0 0;
+  background-image: none;
+}
+.language-item.last {
+  padding: 0 0 0 7px;
+}
